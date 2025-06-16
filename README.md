@@ -85,9 +85,11 @@ cd <project-directory>
 ```
 ### 2. Create a new environment 
 Create a new environment in your project folder to run requirements.txt
-'''bash
+
+```bash
 -path python -m venv <environment_name>
 -path\<environment_name>\Scripts\activate
+```
 
 ### 3. Install dependencies
 ```bash

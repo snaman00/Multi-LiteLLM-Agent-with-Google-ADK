@@ -137,7 +137,7 @@ The system generates:
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 - Python ≥ 3.9
 - `google-adk`
@@ -148,7 +148,7 @@ The system generates:
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 - Integration with Twitter or Discord
 - Scheduled auto-posting via APIs
@@ -157,4 +157,3 @@ The system generates:
 
 ---
 
-## 📜 License

@@ -41,7 +41,7 @@ graph TD
     A[StockDataCollector 📊] --> B[TechnicalAnalyst 📈]
     B --> C[InvestmentThesisGenerator 💡]
     C --> D[LinkedInContentCreator 💼]
-    C --> E[InstagramContentCreator 📸]
+    C --> E[InstagramContentCreator📸]
     D & E --> F[SocialMediaCoordinator 🧩]
     F --> G[FinalReportGenerator 📝]
 ```

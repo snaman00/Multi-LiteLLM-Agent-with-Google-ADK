@@ -66,10 +66,10 @@ result = root_agent.run()
 ```
 .
 ├── agent.py                     # All agent definitions + orchestration logic
-├── instructions.py             # Detailed instructions/prompts for each agent
-├── .env                        # Environment config (e.g., API key, model name)
-├── __init__.py                 # Package init file
-├── requirements.txt            # Dependencies
+ ├── instructions.py             # Detailed instructions/prompts for each agent
+ ├── .env                        # Environment config (e.g., API key, model name)
+ ├── __init__.py                 # Package init file
+├── requirements.txt             # Dependencies
 ```
 
 ---

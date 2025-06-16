@@ -65,7 +65,9 @@ result = root_agent.run()
 
 ```
 .
-├── agent.py                     # All agent definitions + orchestration logic
+├── Virtual env                  # create a new Virtual Environment to install requirements.txt
+├── multi_agent                  # Folder in which (agent.py, instructions.py, __init__.py, .eve) is stored
+ ├── agent.py                    # All agent definitions + orchestration logic
  ├── instructions.py             # Detailed instructions/prompts for each agent
  ├── .env                        # Environment config (e.g., API key, model name)
  ├── __init__.py                 # Package init file
@@ -81,13 +83,18 @@ result = root_agent.run()
 git clone <your-repo-url>
 cd <project-directory>
 ```
+### 2. Create a new environment 
+Create a new environment in your project folder to run requirements.txt
+'''bash
+-path python -m venv <environment_name>
+-path\<environment_name>\Scripts\activate
 
-### 2. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure your environment
+### 4. Configure your environment
 Create a `.env` file (already included):
 ```env
 GOOGLE_API_KEY=your_google_api_key
